@@ -1,0 +1,22 @@
+#animation {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+        opacity: 0;
+    }
+
+    100% {
+        background-color: red;
+        opacity: 100;
+    }
+}
